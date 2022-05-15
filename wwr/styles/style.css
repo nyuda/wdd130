@@ -1,0 +1,73 @@
+#content {
+    max-width:1600px;
+    margin: 0 auto; 
+}
+nav a {
+    text-align: center;
+    color: #d9c2a3;
+    text-decoration: none;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+    background-color:aqua;
+}
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(24, 30, 13, 0.7);
+}
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+
+.book, .join {
+    background-color:aquamarine;
+    color: #d9c2a3;
+    text-decoration: none;
+}
+.book:hover, .join:hover {
+    background-color:blueviolet;
+    color: #d9c2a3;
+}
+.msg {
+    background-color:bisque;
+}
+footer {
+    background-color:aliceblue;
+}
+.home-title{
+    color:darkmagenta;
+}
+h4 {
+    color:darkmagenta;
+}
+.msg h2 {
+    color:blue;
+}
+.msg p {
+    color:blueviolet;
+}
+footer h3 a:hover {
+    color:darkorange;
+    text-decoration: none;
+}
+.icon {
+    width: 80px;
+}
+.logo {
+    width: 80px;
+}
+#hero-img {
+    width: 100%;
+} 
