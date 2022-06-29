@@ -36,14 +36,6 @@ body {
   font-size: 18px;
   text-align: center;
 }
-img {
-  display: block;
-  margin: 0 auto;
-  width: 300px;  
-  height: auto;  
-  text-align: center;  
-  padding: 0.3em;
-}
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
@@ -176,4 +168,141 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+#movies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#movies img {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 25px 50px;
+  margin-top: 200px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 25px;
+}
+
+footer h3 a:hover {
+  color:darkorange;
+  text-decoration: none;
+}
+.icon {
+  width: 80px;
+}
+.logo {
+  width: 80px;
+}
+footer .social img{
+  padding-top: 15px; 
+}
+#popcorn{
+  width:20%;
+  height:20%;
+  margin-top: 20px; 
+}
+#details{
+  width:20%;
+  height:20%;
+  margin-top: 20px; 
+}
+
+.snack {
+  width:100%;
+  height:100%
+}
+.row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#logo_link{
+  width:100%;
+  height:100%;
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em;
+}
+#feedback {
+  background-color: antiquewhite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: .5em;
+  /* make this element invisible until we are ready for it */
+  display: none;       
+}
+.moveDown {
+  margin-top: 3em;
 }

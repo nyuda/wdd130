@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles/site-plan.css">
+    <title>%= htmlWebpackPlugin.options.title %</title>
+</head>
+<body>
+  <header>
+    <h1>Movie Finder</h1>
+</header>
+  <main>
+   <section>
+    <img src="./images/navi.jpeg" alt="navi">
+      <h3 class="text-center">Search For Any Movie</h3>
+      <form id="searchForm">
+        <input type="text" class="form-control" id="searchText" placeholder="Search Movies...">
+        <button type="button" id="on-click">Get Poster</button>
+      </form>
+    </section>
+    <hr>
+    <section>
+      <h2>Movie</h2>
+  <div id="movies">
+  </div>
+</section>
+</main>
+<footer>
+    <h3><a href="movie-details.html">Movie Details</a></h3>
+    <h3><a href="movie-snacks.html">Movie Snacks</a></h3>
+    <h3><a href="contactus.html">Contact Us</a></h3>
+    <div class="social">
+        <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram.png" alt="instagram icon">
+        </a>
+    </div>
+</footer>
+<script src="./index.js"></script>
+</body>
+</html>
