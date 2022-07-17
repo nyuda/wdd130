@@ -6,7 +6,7 @@ let h4 = document.createElement("h4");
 let img = document.createElement("img");
 
 async function getMovies(text){
-    let responsefromAPI = await fetch(`http://www.omdbapi.com/?s=${text}&apikey=f84c9e9b`);
+    let responsefromAPI = await fetch(location.protocol+`//www.omdbapi.com/?s=${text}&apikey=f84c9e9b`);
     let movies = await responsefromAPI.json();
     let movieList = movies.Search;
     
@@ -31,7 +31,7 @@ async function getMovies(text){
 let detail = 'Star Wars: Episode I';
 getMoviesDetails(detail);
 async function getMoviesDetails(text){
-    let responsefromAPI = await fetch(`http://www.omdbapi.com/?s=${text}&apikey=f84c9e9b`);
+    let responsefromAPI = await fetch(location.protocol+`//www.omdbapi.com/?s=${text}&apikey=f84c9e9b`);
     let movies = await responsefromAPI.json();
     let movieList = movies.Search[0];
  
