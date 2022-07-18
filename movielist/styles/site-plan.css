@@ -65,7 +65,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: #D4AC0D;
 }
 .colors td{
   width: 25%;
@@ -141,17 +141,17 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: #ccc;
+  background-color: #D4AC0D;
   line-height: 3em;
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: #ccc;
+  background-color: #D4AC0D;
   line-height: 3em;
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: #ccc;
+  background-color: #D4AC0D;
   line-height: 3em;
 }
 
@@ -187,7 +187,7 @@ img{
 }
 
 footer {
-  background-color: #ccc;
+  background-color: #D4AC0D;
   padding: 25px 50px;
   margin-top: 200px; 
   display: flex;
@@ -303,7 +303,7 @@ button {
   margin-left: .5em;
 }
 #feedback {
-  background-color: antiquewhite;
+  background-color: #D4AC0D;
   position: absolute;
   top: 0;
   left: 0;
