@@ -49,7 +49,7 @@ hr {
   background: var(--accent1-color);
 }
 header {
-  padding: 1em;
+  padding: 0.5em;
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
@@ -104,6 +104,13 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
+
+}
+.overview {
+  width: 300px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 nav a {
@@ -180,6 +187,10 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
+img{
+  padding: 1em;
+}
+
 footer {
   background-color: #ccc;
   padding: 25px 50px;
@@ -200,6 +211,7 @@ footer h3 a:hover {
 }
 .logo {
   width: 80px;
+  padding: 0%;
 }
 footer .social img{
   padding-top: 15px; 
@@ -216,8 +228,10 @@ footer .social img{
 }
 
 .snack {
-  width:100%;
-  height:100%
+  width:400px;
+  height:100%;
+  text-align: left;
+  padding: 1em;
 }
 .row{
   display: grid;
